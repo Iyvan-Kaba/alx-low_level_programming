@@ -1,9 +1,10 @@
 #include<stdio.h>
 /**
- * main -> is a function to print statement with proper grammar, but the outcome is a piece of art,
+ * main -> is a function to print statement with proper grammar,
+ * but the outcome is a piece of art,
  * Return: success always returns 0
  */
-int main()
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
