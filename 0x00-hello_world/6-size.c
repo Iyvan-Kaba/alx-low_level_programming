@@ -1,10 +1,10 @@
 #include<stdio.h>
-/*This scripts is ment to print various types 
- * onthe computer it's compiled and run on
- */
-/*Function main iniates a program to print computer sizes*/
-/*Return function to always return 0*/
-int main()
+/**
+*main-> is a function to print size of various types
+*on the computer it is compiled and run on.
+*Return: 0 tf eited properly, non-zero otherwise.
+*/
+int main(void)
 {
 Prinf("Size for char : %d byte(s) \n", sizeof(char));
 Prinf("Size for int : %d byte(s) \n", sizeof(int));
