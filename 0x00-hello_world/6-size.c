@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-Prinf("Size for char : %d byte(s) \n", sizeof(char));
+prinf("Size for char : %d byte(s) \n", sizeof(char));
 Prinf("Size for int : %d byte(s) \n", sizeof(int));
-Prinf("Size for long int : %d byte(s) \n", sizeof(long int));
-Prinf("Size for long long int : %d byte(s) \n", sizeof(long long int));
-Prinf("Size for float : %d byte(s) \n", sizeof(float));
+prinf("Size for long int : %d byte(s) \n", sizeof(long int));
+prinf("Size for long long int : %d byte(s) \n", sizeof(long long int));
+prinf("Size for float : %d byte(s) \n", sizeof(float));
 return (0);
 }
