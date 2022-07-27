@@ -5,7 +5,7 @@
  * @argv: an array of a command listed
  * Return: 0 for success
  */
-int main(int argc, char *argv[] _attribute_((unsaved)))
+int main(int argc, char *argv[] __attribute__’((unsaved)))
 {
 	printf("%d\n", argc - 1);
 	return (0);
